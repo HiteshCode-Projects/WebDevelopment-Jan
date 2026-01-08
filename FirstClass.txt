@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starbucks🍵</title>
+</head>
+<body>
+   <h1>IPHONE 17</h1>  
+   <h2>IPHONE 17</h2>
+   <h3>IPHONE 17</h3>
+   <h4>IPHONE 17</h4>
+   <h5>IPHONE 17</h5>
+   <h6>IPHONE 17</h6>
+
+
+
+
+   <p>Iphone 17 has a very good  camera and <strong>APPLE AND CO</strong>  long battery life <br>
+      Iphone 17 is a good phone 
+   </p>
+
+   <strong>SALE 50%</strong>
+
+   <em>Hello Everyone How are you?</em>
+
+   
+
+
+</body>
+</html>

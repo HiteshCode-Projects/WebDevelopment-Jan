@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+      <!-- Naviagtion Bar -->
+       <nav>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Menu</li>
+            <li>Review</li>
+            <li>Contact Us</li>
+        </ul>
+       </nav>
+    </header>
+
+    <main>
+        <section id="home" style="background-color: beige;">
+         <video controls autoplay loop muted>
+         <source src="" type="video/mp4">
+         </video>
+
+        <div>
+          <h2>Welcome To Cafe Bliss</h2>
+          <p>Realx. Sip. Enjoy Your Perfect Coffee Moment</p>
+        </div>
+        </section>
+
+        <section id="About" style="background-color: lightblue;">
+          <h2>About Us</h2>
+          <p>At Cafe Bliss , We believe Coffee is more than a drink
+            - It is lifestyle. Our Beans are Sourced from the best
+            farms and brew with love. 
+          </p>
+          <img src="">
+        </section>
+
+        <section id="menu" style="background-color: lightcyan;">
+           <h2>Our Menu</h2>
+           <div>
+
+            <div>
+           <img src="">
+           <h3>Esspresso</h3>
+           <p>Strong and Bold - The perfect Energy</p>
+           <span>$3.00</span>
+            </div>
+
+             <div>
+           <img src="">
+           <h3>Latte</h3>
+           <p>Creamy Foam with rich and smooth coffee</p>
+           <span>$5.00</span>
+            </div>
+
+
+             <div>
+           <img src="">
+           <h3>Hot Chocolate</h3>
+           <p>Sip and Enjoy</p>
+           <span>$8.00</span>
+            </div>
+
+           </div>
+        </section>
+
+        <section id="review" style="background-color: lightgray;">
+            <h2>Customer Reviews</h2>
+            <div>
+        
+                <div>
+                    <p>The Best Coffe in the Town! Love the cozy ambience and  staff</p>
+                    <h4>- Sarah Johnson⭐⭐⭐⭐⭐</h4>
+                </div>
+
+                  <div>
+                    <p>Abousetly amazing Coffee . I vist Every Morning</p>
+                    <h4>- David Lee⭐⭐⭐⭐</h4>
+                 </div>
+
+                  <div>
+                    <p>The Best Coffe in the Town! Love the cozy ambience and  staff</p>
+                    <h4>- Emma⭐⭐⭐⭐⭐</h4>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="contact" style="background-color: lightpink;">
+         <h2>Contact Us</h2>
+         <p>We'd Love to hear from you!Drop by or reach us:</p>
+         <p>📌123 Coffee Street , BrewTwon</p>
+         <p>📞+1 525828598</p>
+         <p>💌hello@cafebliss.com</p>
+        </section>
+
+
+
+    </main>
+
+
+    <footer>
+          <p> &copy;   All rights Reserved.</p>
+    </footer>
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button>Login</button>
+    <button>Add To Cart</button>
+
+
+    <!-- Linking  - Anchor Tag -->
+    <a href="https://www.amazon.in/ref=nav_logo">Amazon</a>
+    <a href="https://www.youtube.com/">Youtube</a>
+</body>
+</html>

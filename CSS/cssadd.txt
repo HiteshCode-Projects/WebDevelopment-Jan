@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1 style="background-color: bisque;  color: red;">Hello How are You Doing</h1>
+
+    <p style="color: red;">This is Paragraph</p>
+
+    
+    <div>
+        <h2 style="background-color: brown; color: white; font-family: cursive;     ">Amazon</h2>
+        <p>Amazon is OTT Platform</p>
+    </div>
+
+
+</body>
+</html>
+
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+     p{
+        color: brown;
+        font-family: monospace;
+        font-style: italic;
+     }
+
+     div{
+        text-align: center;
+        background-color: beige;
+        width: 230px;
+        border: 1px solid black;
+        border-radius: 15px;
+        box-shadow: 0 4px 10px blue;
+        padding: 10px;
+     }
+
+     div:hover{
+        background-color: blueviolet;
+     }
+
+
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Headphone</h1>
+        <img src="Your img link">
+    <p>Headphone is very Good ⭐</p>
+    </div>
+
+    <p>Hello This is Pargraph</p>
+
+</body>
+</html>
+
+-------------------------------------------------------------------------
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Hello This is External File</h1>
+    <strong style="color: blue;">Note:</strong><p>This is paragraph</p>
+
+</body>
+</html>
+----------------------------------------------------------------------
+external css file - style.css
+
+strong{
+color: red;
+
+}
+
+body{
+    background-color: bisque;
+}
+
+h1{
+background-color: black;
+color: white;
+font-style: italic;
+text-align: center;
+}

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+             body{
+                display: flex;
+                background-color: antiquewhite;
+                justify-content: center;
+                align-items: center;
+             }
+
+        .product{
+            background-color: white;
+           border: 2px solid brown; 
+               /* size typeofborder color */
+            border-radius: 10px;   
+            width: 300px;    
+            overflow: hidden;
+            text-align: center;
+            padding: 25px;
+            margin: 15px;
+            box-shadow:  0 5px 12px black;
+                    /* x-axis  y-axis  spread-radius*/
+        }
+
+        .product img{
+            width: 100%;
+            height: 300px;
+            object-fit: cover;  
+            /* It will make sure image is fitted perfectly */
+            border-radius: 10px;
+        }
+
+        .product h2{
+            color: red;
+            font-family: cursive;
+        }
+
+        .product p{
+            color: brown;
+            font-weight: 100px;
+        }
+
+        .product button{
+            background-color: orange;
+            border: none;
+            border-radius: 15px;
+            color: white;
+            padding: 15px;
+        }
+
+        /* chnaging style with mouse - hover */
+        .product:hover{
+            background-color: aqua;
+            transform: scale(1.02);
+        }
+    </style>
+</head>
+<body>
+    <!-- CONTENT - ANY CONETNT - IMG OR TEXT..
+    PADDING - SPACE INSIDE BORDER - 4 DIRECTION
+    MARGIN - SPACE OUTSIDE BORDER - 4 DIRECTION
+    BORDER - LINE SURRONDING FROM ALL 4 DIRECTION -->
+
+
+    <div class="product">
+        <img src="https://images.unsplash.com/photo-1601784551446-20c9e07cdbdb?w=1200&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bW9iaWxlJTIwcGhvbmV8ZW58MHx8MHx8fDA%3D">
+        <h2>Iphone</h2>
+        <p>$200.00</p>
+        <button>Add To Cart</button>
+    </div>
+
+
+     <div class="product">
+        <img src="https://images.unsplash.com/photo-1601784551446-20c9e07cdbdb?w=1200&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bW9iaWxlJTIwcGhvbmV8ZW58MHx8MHx8fDA%3D">
+        <h2>Iphone</h2>
+        <p>$200.00</p>
+        <button>Add To Cart</button>
+    </div>
+
+
+     <div class="product">
+        <img src="https://images.unsplash.com/photo-1601784551446-20c9e07cdbdb?w=1200&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bW9iaWxlJTIwcGhvbmV8ZW58MHx8MHx8fDA%3D">
+        <h2>Iphone</h2>
+        <p>$200.00</p>
+        <button>Add To Cart</button>
+    </div>
+
+
+     <div class="product">
+        <img src="https://images.unsplash.com/photo-1601784551446-20c9e07cdbdb?w=1200&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bW9iaWxlJTIwcGhvbmV8ZW58MHx8MHx8fDA%3D">
+        <h2>Iphone</h2>
+        <p>$200.00</p>
+        <button>Add To Cart</button>
+    </div>
+</body>
+</html>

@@ -12,7 +12,7 @@ function App(){
       <p><mark>Command: </mark> <del>npm</del> <ins>npx create-react-app</ins>  </p> 
       <button>Login</button>
        
-       <ProductCards />
+       <ProductCards  />
        <ProductCards />
        <ProductCards />
 
